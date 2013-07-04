@@ -4,10 +4,11 @@
  * - playerConnected: When a player is currently logging into the server.
  * - playerDisconnected: When a player is currently disconnecting.
  * 
- * - PlayerJoin: When the player Joins. On a server, this is called after 'playerConnected'.
- * - PlayerLeft: When the player Leaves. On a server, this is called after 'playerDisconnected'.
+ * - playerJoin: When the player Joins. On a server, this is called after 'playerConnected'.
+ * - playerLeft: When the player Leaves. On a server, this is called after 'playerDisconnected'.
  * 
- * - PlayerChatted: When the player has said something in the chat.
+ * - playerChatted: When the player has said something in the chat.
+ * - cellChanged: When a block in the world is changed.
  * 
  * - serverStarted: When the server finishes loading.
  * - serverStopped: When the server finishes stopping.
