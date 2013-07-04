@@ -19,7 +19,7 @@ on([playerJoin]) {
 	// we are getting the player here
 	// we asked for it, which 'it' is the player.
 	// having no idea what their name is by default,
-	// we put 'name'.
+	// so we put 'name?'.
 	// if we cannot find the name, their name is "Unknown".
 	def playerName = it.name?:"Unknown"
 	
