@@ -14,7 +14,7 @@
  */
 
 on([playerJoin]) {
-  type, event ->
+  type, event -> //This just basically initializes it.
 	
 	// we are getting the player here
 	// we asked for it, which 'it' is the player.
