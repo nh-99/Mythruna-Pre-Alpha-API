@@ -6,7 +6,7 @@ on([playerJoined]) { //We will use playerJoined for this
 	 * playerData - gets the player's data info
 	 * 
 	 * get(String grant) - lets get the grant, you want to
-	 * put as your permission, 'grant.<permission' admin is
+	 * put as your permission, 'grant.<permission>' admin is
 	 * default for administrators
 	 * 
 	 * != null will check if the player does have the grant.
