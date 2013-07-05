@@ -1,0 +1,29 @@
+Here are the locations that you want to put certain scripts.
+
+CLIENT SIDE:
+Where you have your Mythruna directory, lets say mine is 'C:\Somepath\Mythruna', create a new folder in there 
+called 'mods'. Now you should be in the directory, 'C:\Somepath\Mythruna\mods'.
+
+- User Interface (UI) Mods:
+These types of mods can be used to add commands and change key-mappings. Examples of how to do this are things such
+as adding a command, like '/flora'.
+Make a new folder in your mods folder called 'ui-init' and any UI mods will go in there.
+
+- Dialog Mods:
+Mods that will work for things, like interactivity with a menu, such as the help menu when you press 'F1'.
+Create a folder in your mods folder called 'dialog' and all those scripts will go in there.
+
+- Plugin Mods:
+The type of mods that kind of edit the game as how things are done.
+Make a new folder called 'scripts' inside of mods and that is where all of your plugins go.
+
+=====
+
+SERVER SIDE:
+The server only has dialog and plugin mods to add. You would make folders just like you would in your client side
+version. Say my path is 'C:\Somepath\Mytrhuna-server', for a DIALOG MOD, I would make a folder in there called
+'dialog'. and if I want plugins, I would make a folder in there called 'scripts'.
+
+NOTE: When you first start up your server for the first time, it will automatically generate a 'scripts' folder in 
+your directory, with some default
+admin mods.
